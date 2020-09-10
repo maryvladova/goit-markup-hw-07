@@ -1,0 +1,22 @@
+.logo {
+    display: inline-block;
+    margin: 0px;
+  
+    color: $title-text-color;
+    text-decoration: none;
+    font-family: $font-family-logo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.94;
+    letter-spacing: 0.03em;
+}
+  
+.Web-logo {
+    color: $accent-color;
+}
+  
+.Studio-logo {
+    color: $primary-bg-color;
+}
+

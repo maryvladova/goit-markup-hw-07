@@ -1,0 +1,50 @@
+.footer-join {
+    margin: 0px 70px;
+}
+  
+.join-us {
+    @include centerFlex;
+    margin-top: 20px;
+
+    & .item + .item {
+        margin-left: 10px;
+    }
+}
+    
+.social-link {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+  
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    fill: $primary-bg-color;
+    background-color: $accent-color;
+    }
+}
+  
+.insta {
+    background-image: url(../images/instagram2.svg);
+}
+  
+.twit {
+    background-image: url(../images/twitter1.svg);
+}
+  
+.facebook {
+    background-image: url(../images/facebook1.svg);
+  }
+  
+.linkedin {
+    background-image: url(../images/linkedin1.svg);
+}
